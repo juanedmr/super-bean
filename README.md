@@ -1,5 +1,7 @@
 # Elasic Bean Falsk application CD
 
+[Functionality of the pipeline](https://youtu.be/8d8PAsDssdA)
+
 Fork the repo in order for you to have the files.
 
 * Create a python virtualenv and source it and run `make all`
