@@ -10,6 +10,7 @@ lint:
 
 deploy:
 	echo "Deploying app"
-	python application.py
+	eb use super-bean-env
+	eb deploy
 
 all: install lint test 
