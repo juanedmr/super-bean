@@ -17,6 +17,9 @@ eb create super-bean-env
 
 * Set up AWS Code Build and AWS Code Pipeline to have the project with Continous Integration and Delivery
 
+
 For reference:
+
 [AWS Code Build](https://docs.aws.amazon.com/codebuild/latest/userguide/getting-started.html)
-[AWS Coide Pipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/getting-started-codepipeline.html)
+
+[AWS Code Pipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/getting-started-codepipeline.html)
