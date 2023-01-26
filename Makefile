@@ -10,6 +10,7 @@ lint:
 
 deploy:
 	echo "Deploying app"
+	eb list
 	eb deploy super-bean-env
 
 all: install lint test 
