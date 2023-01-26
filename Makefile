@@ -8,9 +8,9 @@ test:
 lint:
 	pylint --disable=R,C application.py
 
-deploy:
-	echo "Deploying app"
-	ls -lat
-	eb deploy super-bean-env
+#deploy:
+#	echo "Deploying app"
+#	ls -lat
+#	eb deploy super-bean-env
 
 all: install lint test 

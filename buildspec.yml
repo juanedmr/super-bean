@@ -8,9 +8,7 @@ phases:
     commands:
       - python3.8 -m venv ~/.venv
       - source ~/.venv/bin/activate
-      - make install
-      - make lint
-
+      
   build:
     commands:
-      - make deploy
+      - make all
