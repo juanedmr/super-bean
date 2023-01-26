@@ -10,7 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app"
-	unset $(git rev-parse --local-env-vars)
 	eb deploy super-bean-env
 
 all: install lint test 
